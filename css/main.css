@@ -1,0 +1,135 @@
+* {
+	transition: all .1s;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #3b3f45;
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+}
+
+header.name {
+	background-color: #4a4f56;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #eb7e79;
+}
+
+h1.name_header {
+	margin: 0;
+}
+
+p.name_text {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+div.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+main.products-list {
+	margin: 30px auto;
+}
+
+ul.products {
+	margin:0;
+	padding: 0;
+}
+
+ul li {
+	height: 40px;
+	color: #dedede;
+	list-style: none;
+	background-color: #88839e;
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+
+
+ul li:nth-child(2n) {
+	background-color: #757a93;
+}
+
+span:after {
+	color: #b7b0b4;
+	font-size: 16px;
+}
+
+ul li:nth-child(1) span:after {
+	content: "(for the next lesson about CSS)";
+}
+
+ul li:nth-child(2) span:after {
+	content: "(for more CSS manipulations)";
+}
+
+ul li:nth-child(3) span:after {
+	content: "(because they are awesome)";
+}
+
+ul li:nth-child(4) span:after {
+	content: "(hmm... they always disappear)";
+}
+
+ul li:nth-child(6) span:after {
+	content: "(for my friends)";
+}
+
+ul li:hover  {
+	cursor: pointer;
+	background-color: #625e77;
+	border-top: 5px solid #dedede;
+	border-bottom: 5px solid #dedede;
+}
+
+ul li:after:hover {
+	cursor: pointer;
+}
+
+ul li input {
+	cursor: pointer;
+}
+
+ul li label {
+	cursor: pointer;
+}
+
+ul li:active {
+	background-color: #eb7e79;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5, 1.5);
+}
+
+input:checked + span {
+	text-decoration: line-through;
+	color: #b7b0b4;
+}
+
+label {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: #4a4f56;
+	height: 40px;
+	color: #eb7e79;
+	text-align: center;
+	padding-top: 20px; 
+	padding-bottom: 10px;
+}
+
+p.footer-text {
+	margin: 0;
+	font-size: 24px;
+}
